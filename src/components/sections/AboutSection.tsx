@@ -1,7 +1,6 @@
-import { Download, User } from 'lucide-react';
+import { User } from 'lucide-react';
 import SectionTitle from '../SectionTitle';
 import AnimatedCounter from '../AnimatedCounter';
-import { Button } from '../ui/button';
 import { useScrollAnimation } from '@/hooks/useScrollAnimation';
 
 const AboutSection = () => {
@@ -51,14 +50,7 @@ const AboutSection = () => {
               When I'm not shipping code, I'm breaking into systems (ethically), training AI models, or automating the mundane.
             </p>
 
-            <Button 
-              variant="outline" 
-              className="font-mono border-primary text-primary hover:bg-primary/10 group mt-4"
-            >
-              <Download className="w-4 h-4 mr-2 group-hover:animate-bounce" />
-              <span className="mr-2 opacity-70">&gt;</span>
-              download resume.pdf
-            </Button>
+
           </div>
         </div>
 
